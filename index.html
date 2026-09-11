@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Area 51 Car Care - Premium automatic car wash systems and detailing services. Automatic Two-180 Wheeler Wash System available. Expert car care in Coimbatore.">
+  <title>Area 51 Car Care — Premium Car Wash</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://images.unsplash.com">
+  <link rel="preload" as="image" href="https://images.unsplash.com/photo-1565689876697-e467b6c54da2?w=600&auto=format&fit=crop&q=65" media="(max-width: 768px)" fetchpriority="high">
+  <link rel="preload" as="image" href="https://images.unsplash.com/photo-1565689876697-e467b6c54da2?w=800&auto=format&fit=crop&q=70" media="(min-width: 769px)" fetchpriority="high">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a href="#" class="logo">
+        <img src="images/logo.jpeg" alt="Area 51 Car Care" class="logo-img" loading="eager" width="150" height="42">
+      </a>
+      <div class="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#pricing" class="btn btn-primary">Book Now</a>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <!-- 1. Carousel: washing images (no overlap with logo/content) -->
+      <div class="hero-carousel" aria-label="Car wash gallery">
+        <div class="carousel-track">
+          <div class="carousel-slide" data-index="0" data-bg-mobile="https://images.unsplash.com/photo-1565689876697-e467b6c54da2?w=600&auto=format&fit=crop&q=65" data-bg-desktop="https://images.unsplash.com/photo-1565689876697-e467b6c54da2?w=800&auto=format&fit=crop&q=70">
+            <span class="slide-caption">Wheel &amp; tire care</span>
+          </div>
+          <div class="carousel-slide" data-index="1" data-bg-mobile="https://images.unsplash.com/photo-1611239179213-d972da54091a?w=600&auto=format&fit=crop&q=65" data-bg-desktop="https://images.unsplash.com/photo-1611239179213-d972da54091a?w=800&auto=format&fit=crop&q=70">
+            <span class="slide-caption">Spotless finish</span>
+          </div>
+          <div class="carousel-slide" data-index="2" data-bg-mobile="https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=600&auto=format&fit=crop&q=65" data-bg-desktop="https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=800&auto=format&fit=crop&q=70">
+            <span class="slide-caption">Expert detailing</span>
+          </div>
+          <div class="carousel-slide" data-index="3" data-bg-mobile="https://images.unsplash.com/photo-1645966923376-33eaf7007665?w=600&auto=format&fit=crop&q=65" data-bg-desktop="https://images.unsplash.com/photo-1645966923376-33eaf7007665?w=800&auto=format&fit=crop&q=70">
+            <span class="slide-caption">Hand wash &amp; protection</span>
+          </div>
+          <div class="carousel-slide" data-index="4" data-bg-mobile="https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?w=600&auto=format&fit=crop&q=65" data-bg-desktop="https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?w=800&auto=format&fit=crop&q=70">
+            <span class="slide-caption">Premium care</span>
+          </div>
+        </div>
+        <div class="carousel-overlay"></div>
+        <button type="button" class="carousel-btn carousel-prev" aria-label="Previous slide">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"></path></svg>
+        </button>
+        <button type="button" class="carousel-btn carousel-next" aria-label="Next slide">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"></path></svg>
+        </button>
+        <div class="carousel-dots" aria-label="Slide navigation">
+          <button type="button" class="dot" data-index="0" aria-label="Slide 1"></button>
+          <button type="button" class="dot" data-index="1" aria-label="Slide 2"></button>
+          <button type="button" class="dot" data-index="2" aria-label="Slide 3"></button>
+          <button type="button" class="dot" data-index="3" aria-label="Slide 4"></button>
+          <button type="button" class="dot" data-index="4" aria-label="Slide 5"></button>
+        </div>
+      </div>
+      <!-- 2. Logo + content: separate block below carousel (no overlap) -->
+      <div class="hero-content-wrap">
+        <div class="hero-bg">
+          <div class="hero-gradient"></div>
+          <div class="hero-grid"></div>
+          <div class="hero-glow"></div>
+          <div class="hero-light-rays" aria-hidden="true"></div>
+          <div class="particles" aria-hidden="true">
+            <span class="particle" style="--delay: 0s; --duration: 20s; --x: 10%;"></span>
+            <span class="particle" style="--delay: 2s; --duration: 25s; --x: 30%;"></span>
+            <span class="particle" style="--delay: 4s; --duration: 22s; --x: 50%;"></span>
+            <span class="particle" style="--delay: 1s; --duration: 28s; --x: 70%;"></span>
+            <span class="particle" style="--delay: 3s; --duration: 24s; --x: 90%;"></span>
+            <span class="particle" style="--delay: 5s; --duration: 26s; --x: 20%;"></span>
+            <span class="particle" style="--delay: 2.5s; --duration: 23s; --x: 60%;"></span>
+            <span class="particle" style="--delay: 4.5s; --duration: 27s; --x: 80%;"></span>
+          </div>
+          <div class="wave-bg" aria-hidden="true"></div>
+          <div class="stars" aria-hidden="true">
+            <span class="star" data-delay="0"></span>
+            <span class="star" data-delay="1"></span>
+            <span class="star" data-delay="2"></span>
+            <span class="star" data-delay="3"></span>
+            <span class="star" data-delay="4"></span>
+            <span class="star" data-delay="5"></span>
+            <span class="star" data-delay="6"></span>
+            <span class="star" data-delay="7"></span>
+            <span class="star" data-delay="8"></span>
+          </div>
+        </div>
+        <div class="hero-content container">
+          <p class="hero-tagline">* Out of the World Service *</p>
+          <h1 class="hero-title">
+            <span class="line">Shine like</span>
+            <span class="line accent">new.</span>
+          </h1>
+          <p class="hero-desc">
+            Expert wash, detail &amp; protection. Black-themed premium care for your ride.
+          </p>
+          <div class="hero-cta">
+            <a href="#pricing" class="btn btn-primary btn-lg">View Packages</a>
+            <a href="#services" class="btn btn-ghost btn-lg">Our Services</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="car-silhouette float" aria-hidden="true">
+            <svg viewBox="0 0 400 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M50 120 L80 80 L320 80 L350 120 L50 120 Z" stroke="currentColor" stroke-width="2" fill="none" opacity="0.15"></path>
+              <ellipse cx="120" cy="120" rx="25" ry="8" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.2"></ellipse>
+              <ellipse cx="280" cy="120" rx="25" ry="8" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.2"></ellipse>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section services">
+      <div class="section-divider">
+        <span class="line"></span>
+        <span class="star">★</span>
+        <span class="line"></span>
+      </div>
+      <div class="container">
+        <span class="section-tag">What we offer</span>
+        <h2 class="section-title">Services</h2>
+        <div class="services-grid">
+          <article class="service-card reveal" data-delay="0">
+            <div class="service-icon">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 24h32M8 32h24M12 16h24"></path></svg>
+            </div>
+            <h3>Exterior Wash</h3>
+            <p>Hand wash, wheels, tires &amp; drying. Spotless finish every time.</p>
+          </article>
+          <article class="service-card reveal" data-delay="1">
+            <div class="service-icon">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 12v24h24V12H12z"></path><path d="M16 20h16M16 28h12"></path></svg>
+            </div>
+            <h3>Interior Detail</h3>
+            <p>Vacuum, wipe-down &amp; conditioning. Cabin refresh included.</p>
+          </article>
+          <article class="service-card reveal" data-delay="2">
+            <div class="service-icon">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="24" cy="24" r="10"></circle><path d="M24 14v10l6 6"></path></svg>
+            </div>
+            <h3>Full Robotic Detail</h3>
+            <p>Inside &amp; out. Paint correction, wax &amp; sealant available.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="section pricing">
+      <div class="section-divider">
+        <span class="line"></span>
+        <span class="star">★</span>
+        <span class="line"></span>
+      </div>
+      <div class="container">
+        <span class="section-tag">Transparent pricing</span>
+        <h2 class="section-title">Packages</h2>
+        <div class="pricing-grid">
+          <div class="pricing-card reveal" data-delay="0">
+            <h3>Basic</h3>
+            <p class="price"><span class="currency">₹</span>25</p>
+            <p class="price-desc">Exterior wash only</p>
+            <ul>
+              <li>Robotic wash</li>
+              <li>Wheel &amp; tire care</li>
+              <li>Expert detailing</li>
+              <li>Hand wash &amp; protection</li>
+              <li>Premium care</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline">Select</a>
+          </div>
+          <div class="pricing-card featured reveal" data-delay="1">
+            <span class="popular">Most popular</span>
+            <h3>Automatic Two-180 Wheeler Wash System</h3>
+            <p class="price"><span class="currency">₹</span>2,75,000<span class="gst"> + GST</span></p>
+            <p class="price-desc">Fully automatic 360° coverage</p>
+            <ul>
+              <li><strong>Pump:</strong> 7.5 HP pressure pump</li>
+              <li><strong>Nozzles:</strong> 13 wash + 5 foam nozzles</li>
+              <li><strong>Coverage:</strong> 360° automatic cycle</li>
+              <li><strong>Control:</strong> Manual/basic control panel</li>
+              <li><strong>Power:</strong> Three phase</li>
+              <li><strong>Installation:</strong> Surface-mounted (minimal civil work)</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary">Select</a>
+          </div>
+          <div class="pricing-card reveal" data-delay="2">
+            <h3>Elite</h3>
+            <p class="price"><span class="currency">₹</span>120</p>
+            <p class="price-desc">Full detail</p>
+            <ul>
+              <li>Everything in Premium</li>
+              <li>Clay bar &amp; polish</li>
+              <li>Wax or sealant</li>
+              <li>Engine bay</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline">Select</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-divider">
+        <span class="line"></span>
+        <span class="star">★</span>
+        <span class="line"></span>
+      </div>
+      <div class="container about-inner">
+        <div class="about-content reveal" data-delay="0">
+          <span class="section-tag">About us</span>
+          <h2 class="section-title">Black theme.<br>Premium care.</h2>
+          <p>
+            We blend a sleek, black-themed environment with top-tier car care.
+            Every wash and detail is done with precision and care—so your ride
+            looks as sharp as our space.
+          </p>
+          <a href="#contact" class="btn btn-primary">Get in touch</a>
+        </div>
+        <div class="about-stats reveal" data-delay="1">
+          <div class="stat"><span class="stat-num">500+</span><span class="stat-label">Cars detailed</span></div>
+          <div class="stat"><span class="stat-num">4.9</span><span class="stat-label">Avg. rating</span></div>
+          <div class="stat"><span class="stat-num">5</span><span class="stat-label">Years experience</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-divider">
+        <span class="line"></span>
+        <span class="star">★</span>
+        <span class="line"></span>
+      </div>
+      <div class="container">
+        <span class="section-tag">Visit us</span>
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-grid">
+          <div class="contact-card reveal" data-delay="0">
+            <h4>Location</h4>
+            <p>No 6, Ayyappa Nagar Thaneer Panthal<br>Codissa Road, Peelamedu, Coimbatore, Tamil Nadu 641004</p>
+          </div>
+          <div class="contact-card reveal" data-delay="1">
+            <h4>Hours</h4>
+            <p>Mon–Sat 8am–6pm<br>Sun 9am–4pm</p>
+          </div>
+          <div class="contact-card reveal" data-delay="2">
+            <h4>Book</h4>
+            <p><a href="tel:+919384763405">+91-93847 63405</a><br><a href="mailto:contact@area51carcare.com">contact@area51carcare.com</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#" class="logo logo-footer">
+        <img src="images/logo.jpeg" alt="Area 51 Car Care" class="logo-img" loading="lazy" width="150" height="48">
+      </a>
+      <p class="footer-copy">© 2025 Area 51 Car Care. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
